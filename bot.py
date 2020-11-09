@@ -39,6 +39,7 @@ def display_antonym(word):
 
 def clear_all(texts):
     window.FindElement('output').Update(greetings)
+    window.FindElement('input').Update(value='')
 
 if __name__ == '__main__':
     window = sg.Window('Word Explorer', layout)
